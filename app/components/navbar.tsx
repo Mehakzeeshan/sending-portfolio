@@ -1,10 +1,11 @@
+
 "use client";
 import Link from "next/link";
 import React, {useState} from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import NavLink from "./navLink";
 import MenuOverlay from "./menuOverlay";
-import { title } from "process";
+
 
 
 const navLinks = [
@@ -35,7 +36,7 @@ const Navbar = () => {
         <Link href= {"/"} className="text-2xl md:text-4xl text-white font-semibold">
         Coder..
          </Link>
-         <div className="mobile-menu block md:hidden">
+         <div className="mobile-menu">
             {
                 !navbarOpen ? (
                     <button onClick={() => setNavbarOpen(true)} className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
