@@ -1,7 +1,7 @@
 import HeroSection from "./components/heroSection";
 import Navbar from "./components/navbar"
 import Footer from "./components/footer";
-import AchievementsSection from "./components/achievementSection";
+//import AchievementsSection from "./components/achievementSection";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
      <div className="container mt-24 mx-auto px-10 pb-20">
      <HeroSection />
-     <AchievementsSection />
+     {/*<AchievementsSection />*/}
      {/*<AboutSection />*/}
      {/*<ProjectSection />*/}
      {/*<EmailSection />*/}

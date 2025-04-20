@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import ProjectCards from './projectCards';
 import ProjectTag from './projectTag';
 import { motion, useInView } from "framer-motion";

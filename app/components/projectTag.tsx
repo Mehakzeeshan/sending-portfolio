@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const ProjectTag = ({ name, onClick, isSelected }:any) => {  // eslint-disable-line 
   const buttonStyles = isSelected

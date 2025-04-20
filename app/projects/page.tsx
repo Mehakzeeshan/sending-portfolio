@@ -2,7 +2,6 @@ import Navbar from "../components/navbar";
 import ProjectSection from "../components/projectSection";
 import Footer from "../components/footer";
 
-import React from 'react'
 
 const Projects = () => {
   return (

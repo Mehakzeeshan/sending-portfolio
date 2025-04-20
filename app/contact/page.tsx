@@ -2,8 +2,6 @@ import Navbar from "../components/navbar";
 import EmailSection from "../components/emailSection";
 import Footer from "../components/footer";
 
-import React from 'react'
-
 const Contact = () => {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
